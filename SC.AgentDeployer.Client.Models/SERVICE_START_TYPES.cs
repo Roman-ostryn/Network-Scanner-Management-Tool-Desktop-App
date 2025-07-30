@@ -1,0 +1,10 @@
+namespace SC.AgentDeployer.Client.Models;
+
+public enum SERVICE_START_TYPES
+{
+	SERVICE_AUTO_START = 2,
+	SERVICE_BOOT_START = 0,
+	SERVICE_DEMAND_START = 3,
+	SERVICE_DISABLED = 4,
+	SERVICE_SYSTEM_START = 1
+}

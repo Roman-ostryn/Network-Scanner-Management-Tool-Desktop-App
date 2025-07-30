@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SC.AgentDeployer.Client</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\play-green-16.png" />
+    <None Remove="resources\info-blue-16.png" />
+    <None Remove="resources\sc-logo-48.ico" />
+    <None Remove="resources\stop-red-16.png" />
+    <None Remove="resources\details-blue-16.png" />
+    <None Remove="resources\save-blue-16.png" />
+    <None Remove="resources\user-blue-16.png" />
+    <None Remove="resources\plus-blue-16.png" />
+    <None Remove="resources\sync-blue-16.png" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.screenconnect.core.dll.compressed" />
+    <None Remove="costura.screenconnect.windowsinstaller.dll.compressed" />
+    <None Remove="costura.system.windows.interactivity.dll.compressed" />
+    <EmbeddedResource Include="resources\play-green-16.png" LogicalName="resources/play-green-16.png" />
+    <EmbeddedResource Include="resources\info-blue-16.png" LogicalName="resources/info-blue-16.png" />
+    <EmbeddedResource Include="resources\sc-logo-48.ico" LogicalName="resources/sc-logo-48.ico" />
+    <EmbeddedResource Include="resources\stop-red-16.png" LogicalName="resources/stop-red-16.png" />
+    <EmbeddedResource Include="resources\details-blue-16.png" LogicalName="resources/details-blue-16.png" />
+    <EmbeddedResource Include="resources\save-blue-16.png" LogicalName="resources/save-blue-16.png" />
+    <EmbeddedResource Include="resources\user-blue-16.png" LogicalName="resources/user-blue-16.png" />
+    <EmbeddedResource Include="resources\plus-blue-16.png" LogicalName="resources/plus-blue-16.png" />
+    <EmbeddedResource Include="resources\sync-blue-16.png" LogicalName="resources/sync-blue-16.png" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.screenconnect.core.dll.compressed" LogicalName="costura.screenconnect.core.dll.compressed" />
+    <EmbeddedResource Include="costura.screenconnect.windowsinstaller.dll.compressed" LogicalName="costura.screenconnect.windowsinstaller.dll.compressed" />
+    <EmbeddedResource Include="costura.system.windows.interactivity.dll.compressed" LogicalName="costura.system.windows.interactivity.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ScreenConnect.Core" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="System.Core" />
+    <Reference Include="ScreenConnect.WindowsInstaller" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+</Project>

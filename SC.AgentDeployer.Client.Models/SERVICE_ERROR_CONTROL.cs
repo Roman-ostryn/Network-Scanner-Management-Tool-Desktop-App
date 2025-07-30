@@ -1,0 +1,9 @@
+namespace SC.AgentDeployer.Client.Models;
+
+public enum SERVICE_ERROR_CONTROL
+{
+	SERVICE_ERROR_CRITICAL = 3,
+	SERVICE_ERROR_IGNORE = 0,
+	SERVICE_ERROR_NORMAL = 1,
+	SERVICE_ERROR_SEVERE = 2
+}

@@ -1,0 +1,15 @@
+using System;
+
+namespace SC.AgentDeployer.Client.Models;
+
+[Flags]
+public enum SERVICE_STATE
+{
+	SERVICE_CONTINUE_PENDING = 5,
+	SERVICE_PAUSE_PENDING = 6,
+	SERVICE_PAUSED = 7,
+	SERVICE_RUNNING = 4,
+	SERVICE_START_PENDING = 2,
+	SERVICE_STOP_PENDING = 3,
+	SERVICE_STOPPED = 1
+}

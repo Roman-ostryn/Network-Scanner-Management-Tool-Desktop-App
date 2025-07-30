@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="StatusDeploymentToMachineCanceled" xml:space="preserve"><value>Client deployment to machine canceled</value></data>
+  <data name="StatusStartingClientOnIp" xml:space="preserve"><value>Attempting to start client service on {0}...</value></data>
+  <data name="ClientStartStatusInvalidCredentials" xml:space="preserve"><value>Failed to start client: Invalid domain credentials</value></data>
+  <data name="DeployClientMessageServiceRunning" xml:space="preserve"><value>Deployment succeeded with client service status running</value></data>
+  <data name="DeployClientMessageDuplicateServiceName" xml:space="preserve"><value>Deployment failed: Networker service duplicated</value></data>
+  <data name="StatusDomainCredentialsCleared" xml:space="preserve"><value>Cleared domain credentials</value></data>
+  <data name="ClientStatusServiceStopPending" xml:space="preserve"><value>Client installed with service status stop pending</value></data>
+  <data name="DeployClientMessagePossibleNonWindowsMachine" xml:space="preserve"><value>Deployment failed: Possible non-Windows machine</value></data>
+  <data name="ClientStartStatusScmOtherError" xml:space="preserve"><value>Failed to start client: Possible non-Windows machine</value></data>
+  <data name="StatusLoadedFromArpTable" xml:space="preserve"><value>Loaded addresses from arp table</value></data>
+  <data name="CredentialsUsingCurrentUserCredentials" xml:space="preserve"><value>Using current Windows user credentials</value></data>
+  <data name="StatusClearAllComplete" xml:space="preserve"><value>Deselected all addresses</value></data>
+  <data name="CredentialsUsingDomainCredentials" xml:space="preserve"><value>Using impersonated user credentials</value></data>
+  <data name="StatusLoadClientStatusFinished" xml:space="preserve"><value>Finished loading client statuses</value></data>
+  <data name="ClientStatusServiceRunning" xml:space="preserve"><value>Client installed with service status running</value></data>
+  <data name="ClientStartStatusStartingService" xml:space="preserve"><value>Attempting to start client service...</value></data>
+  <data name="DeployClientMessageInvalidCredentials" xml:space="preserve"><value>Deployment failed: Invalid domain credentials</value></data>
+  <data name="StatusDomainCredentialsSaved" xml:space="preserve"><value>Saved domain credentials</value></data>
+  <data name="StatusCancelingOperation" xml:space="preserve"><value>Canceling operation...</value></data>
+  <data name="StatusDeploymentCanceled" xml:space="preserve"><value>Client deployment canceled</value></data>
+  <data name="MsiInstallerFileName" xml:space="preserve"><value>SC.AgentDeployer.Installer.msi</value></data>
+  <data name="DeployClientMessageNetworkerServiceAlreadyExists" xml:space="preserve"><value>Deployment failed: Networker service already exists</value></data>
+  <data name="ClientStartStatusServiceNotStarted" xml:space="preserve"><value>Failed to start client: StartService function returned false</value></data>
+  <data name="ClientStartStatusInvalidClientServiceHandle" xml:space="preserve"><value>Failed to start client: Invalid client service handle</value></data>
+  <data name="StatusSelectIpBeforeStartClient" xml:space="preserve"><value>Please select at least one IP address before starting client(s)</value></data>
+  <data name="ClientStartStatusServicePausePending" xml:space="preserve"><value>Failed to start client: Client service has status pause pending</value></data>
+  <data name="StatusCheckingClientStatuses" xml:space="preserve"><value>Checking client statuses...</value></data>
+  <data name="DeployClientMessageNoResponseToArp" xml:space="preserve"><value>Deployment failed: Endpoint did not respond to ARP request</value></data>
+  <data name="DeployClientMessageServiceContinuePending" xml:space="preserve"><value>Deployment succeeded with client service status continue pending</value></data>
+  <data name="DeployClientMessageServiceStopped" xml:space="preserve"><value>Deployment succeeded with client service status stopped</value></data>
+  <data name="ClientStatusServicePausePending" xml:space="preserve"><value>Client installed with service status pause pending</value></data>
+  <data name="StatusStartClientsFinished" xml:space="preserve"><value>Finished attempting to start client services</value></data>
+  <data name="StatusDeployingClientToIp" xml:space="preserve"><value>Attempting client deployment to {0}...</value></data>
+  <data name="ClientStatusFailedOpenScm" xml:space="preserve"><value>Failed to open SCM on remote machine</value></data>
+  <data name="SubnetFilterApplied" xml:space="preserve"><value>IP Addresses filtered</value></data>
+  <data name="StatusDeployClientFinished" xml:space="preserve"><value>Finished attempting client deployment</value></data>
+  <data name="ClientStartStatusServiceRunning" xml:space="preserve"><value>Failed to start client: Client service has status running</value></data>
+  <data name="ClientDetailsNotLoaded" xml:space="preserve"><value>Error: Client Details Not Loaded</value></data>
+  <data name="DeployClientMessageNetworkerServiceOtherError" xml:space="preserve"><value>Deployment failed: Other error</value></data>
+  <data name="ClientStatusServiceStopped" xml:space="preserve"><value>Client installed with service status stopped</value></data>
+  <data name="StatusCheckClientStatusCanceled" xml:space="preserve"><value>Client status check canceled</value></data>
+  <data name="ClientStatusClientNotInstalledError" xml:space="preserve"><value>Status check failed</value></data>
+  <data name="DeployClientMessageServicePaused" xml:space="preserve"><value>Deployment succeeded with client service status paused</value></data>
+  <data name="DeployClientMessageNetworkerServiceCircularDependency" xml:space="preserve"><value>Deployment failed: Networker service circular dependency</value></data>
+  <data name="ClientStatusAccessDenied" xml:space="preserve"><value>Status check failed: Access denied</value></data>
+  <data name="ClientStartStatusClientNotInstalledError" xml:space="preserve"><value>Failed to start client service</value></data>
+  <data name="StatusStartingClients" xml:space="preserve"><value>Attempting to start client services...</value></data>
+  <data name="ClientStartStatusServiceContinuePending" xml:space="preserve"><value>Failed to start client: Client service has status continue pending</value></data>
+  <data name="ClientStatusScmDoesNotExist" xml:space="preserve"><value>Status check failed: SCM does not exist on machine</value></data>
+  <data name="StatusLoadingClientStatusForIp" xml:space="preserve"><value>Loading status for {0}...</value></data>
+  <data name="StatusCheckClientStatusOnMachineCanceled" xml:space="preserve"><value>Client status check for machine canceled</value></data>
+  <data name="ClientStatusInvalidCredentials" xml:space="preserve"><value>Status check failed: Invalid domain credentials</value></data>
+  <data name="ClientStartStatusServiceStopPending" xml:space="preserve"><value>Failed to start client: Client service has status stop pending</value></data>
+  <data name="ClientStatusInvalidClientServiceHandle" xml:space="preserve"><value>Status check failed: Invalid client service handle</value></data>
+  <data name="DeployClientMessageScmDoesNotExist" xml:space="preserve"><value>Deployment failed: SCM does not exist on machine</value></data>
+  <data name="DeployClientMessageServicePausePending" xml:space="preserve"><value>Deployment succeeded with client service status pause pending</value></data>
+  <data name="ClientStatusPossibleNonWindowsMachine" xml:space="preserve"><value>Status check failed: Possible non-Windows machine</value></data>
+  <data name="DeployClientMessageInvalidNetworkerServiceName" xml:space="preserve"><value>Deployment failed: Invalid networker service name</value></data>
+  <data name="ClientStartStatusInvalidClientServiceName" xml:space="preserve"><value>Failed to start client: Invalid client service name</value></data>
+  <data name="DeployClientMessageUnknownStatus" xml:space="preserve"><value>Deployment succeeded with unknown client service status</value></data>
+  <data name="DeployClientMessageClientInstallFailure" xml:space="preserve"><value>Deployment failed</value></data>
+  <data name="ClientStatusNoResponseToArp" xml:space="preserve"><value>Status check failed: Endpoint did not respond to ARP request</value></data>
+  <data name="InvalidIpAddressRangeExMessage" xml:space="preserve"><value>Invalid IP address range</value></data>
+  <data name="ClientStartStatusServiceStarted" xml:space="preserve"><value>Started client service</value></data>
+  <data name="StatusFinishedProcessingPayload" xml:space="preserve"><value>Finished processing networker payload</value></data>
+  <data name="ClientStartStatusClientServiceDoesNotExist" xml:space="preserve"><value>Failed to start client: Client not installed on machine</value></data>
+  <data name="ClientStatusClientServiceDoesNotExist" xml:space="preserve"><value>Client not installed on machine</value></data>
+  <data name="ClientStatusInvalidClientServiceName" xml:space="preserve"><value>Status check failed: Invalid client service name</value></data>
+  <data name="DefaultSubnetFilterApplied" xml:space="preserve"><value>Default Subnet filter applied</value></data>
+  <data name="StatusLoadedFromSubnet" xml:space="preserve"><value>Loaded subnet addresses</value></data>
+  <data name="StatusSelectIpBeforeCheckStatus" xml:space="preserve"><value>Please select at least one IP address before checking client status</value></data>
+  <data name="ClientStatusServiceContinuePending" xml:space="preserve"><value>Client installed with service status continue pending</value></data>
+  <data name="DeployClientMessageInvalidNetworkerServiceHandle" xml:space="preserve"><value>Deployment failed: Invalid networker service handle</value></data>
+  <data name="DeployClientMessageServiceStartPending" xml:space="preserve"><value>Deployment succeeded with client service status start pending</value></data>
+  <data name="StatusProcessingPayload" xml:space="preserve"><value>Processing networker payload...</value></data>
+  <data name="StatusCheckingClientStatus" xml:space="preserve"><value>Checking client status...</value></data>
+  <data name="StatusAttemptingClientDeployments" xml:space="preserve"><value>Attempting client deployments...</value></data>
+  <data name="ClientStartStatusScmDoesNotExist" xml:space="preserve"><value>Failed to start client: SCM does not exist on machine</value></data>
+  <data name="NetworkerServiceFileName" xml:space="preserve"><value>SC.AgentDeployer.Installer.exe</value></data>
+  <data name="ClientStatusUnknownStatus" xml:space="preserve"><value>Client installed with unknown service status</value></data>
+  <data name="DeployClientMessageNetworkerServiceMarkedForDeletion" xml:space="preserve"><value>Deployment failed: Networker service marked for deletion</value></data>
+  <data name="ClientStatusServicePaused" xml:space="preserve"><value>Client installed with service status paused</value></data>
+  <data name="ClientStartStatusAccessDenied" xml:space="preserve"><value>Failed to start client: Access denied</value></data>
+  <data name="ClientStartStatusServiceStartPending" xml:space="preserve"><value>Failed to start client: Client service has status start pending</value></data>
+  <data name="ClientStatusClientServiceOtherError" xml:space="preserve"><value>Status check failed: Other error</value></data>
+  <data name="DeployClientMessageServiceStopPending" xml:space="preserve"><value>Deployment succeeded with client service status stop pending</value></data>
+  <data name="ClientStartStatusUnknownStatus" xml:space="preserve"><value>Client service status unknown</value></data>
+  <data name="ClientStartStatusClientServiceOtherError" xml:space="preserve"><value>Failed to start client: unknown error</value></data>
+  <data name="StatusAttemptingClientDeployment" xml:space="preserve"><value>Attempting client deployment...</value></data>
+  <data name="ClientStatusServiceStartPending" xml:space="preserve"><value>Client installed with service status start pending</value></data>
+  <data name="ClientStartStatusNoResponseToArp" xml:space="preserve"><value>Failed to start client: Endpoint did not respond to ARP request</value></data>
+  <data name="StatusSelectIpBeforeDeployClient" xml:space="preserve"><value>Please select at least one IP address before deploying client</value></data>
+  <data name="StatusSelectAllComplete" xml:space="preserve"><value>Selected all addresses</value></data>
+  <data name="DeployClientMessageAccessDenied" xml:space="preserve"><value>Failed to deploy client to machine: Access denied</value></data>
+  </root>
